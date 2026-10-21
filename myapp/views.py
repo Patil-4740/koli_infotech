@@ -11,5 +11,9 @@ def about(request):
 def contact(request):
     return HttpResponse("Contact Section")
 
+def shop(request):
+    return HttpResponse("Shop Section")
 
-# Create your views here:
+
+
+#Create your views here:
