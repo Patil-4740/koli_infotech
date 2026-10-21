@@ -11,6 +11,14 @@ def about(request):
 def contact(request):
     return HttpResponse("Contact Section")
 
+def shop(request):
+    return HttpResponse("Shop Section")
+
+def cart(request):
+    return HttpResponse("Cart Section")
+
+
+
 
 
 
