@@ -14,5 +14,10 @@ def contact(request):
 def shop(request):
     return HttpResponse("Shop Section")
 
+def cart(request):
+    return HttpResponse("Cart Section")
+
+
+
 
 # Create your views here:
