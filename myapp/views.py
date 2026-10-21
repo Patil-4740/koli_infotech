@@ -17,6 +17,10 @@ def shop(request):
 def cart(request):
     return HttpResponse("Cart Section")
 
+def order(request):
+    return HttpResponse("Order Section")
+
+
 
 
 

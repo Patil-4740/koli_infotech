@@ -8,6 +8,10 @@ urlpatterns=[
 
         path('shop',shop,name='shop'),
 
-        path('cart',cart,name='cart')
+        path('cart',cart,name='cart'),
+
+        path('order',order,name='order')
+
+
 
 ]
