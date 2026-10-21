@@ -20,6 +20,8 @@ def cart(request):
 def order(request):
     return HttpResponse("Order Section")
 
+def payments(request):
+    return HttpResponse("Payment Section")
 
 
 

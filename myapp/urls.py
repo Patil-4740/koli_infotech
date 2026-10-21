@@ -10,8 +10,11 @@ urlpatterns=[
 
         path('cart',cart,name='cart'),
 
-        path('order',order,name='order')
+        path('order',order,name='order'),
 
-
-
+        path('payments',payments,name='payments')
 ]
+
+
+
+
